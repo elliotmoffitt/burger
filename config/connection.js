@@ -9,6 +9,22 @@ var connection = mysql.createConnection({
   database: "cat_db"
 });
 
+if (process.env.JAWSDB_URL) {
+  connection = mysql.createConnection(process.env.JAWSDB_URL);
+
+} else {
+  connection = mysql.createConnection({
+    host: 'localhost',
+    user: 'root',
+    password: 'Ripremus23',
+    database: 'todoagain_db'
+  });
+};
+
+
+
+
+
 // Make connection.
 connection.connect(function(err) {
   if (err) {
