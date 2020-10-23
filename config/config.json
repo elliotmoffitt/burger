@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "Ripremus23",
-    "database": "cat_db",
-    "host": "127.0.0.1",
+    "username": "hizp6fio5gcq4mmm",
+    "password": "hwgxckqt9pqwgerv",
+    "database": "m0dyvnp2dl4awu8m",
+    "host": "f2fbe0zvg9j8p9ng.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   },
   "test": {
